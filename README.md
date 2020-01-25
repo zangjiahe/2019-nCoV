@@ -3,9 +3,9 @@
 
 
 需要修改API.java中的两处域名，本API支持两种查询
-    一、支持按照省份(直辖市)查询 ：http://域名/2019_nCov/api?provinceName=省份&type=1（如果是直辖市 需要些市  如上海市）
-    二、支持按照城市查询  ：http://域名/2019_nCov/api?provinceName=城市名称&type=2 
-    三、支持自己DIY编写查询API：http://域名/2019_nCov/2019-nCov?type=0 
+    一、支持按照省份(直辖市)查询 ：域名/2019_nCov/api?provinceName=省份&type=1（如果是直辖市 需要些市  如上海市）
+    二、支持按照城市查询  ：域名/2019_nCov/api?provinceName=城市名称&type=2 
+    三、支持自己DIY编写查询API：域名/2019_nCov/2019-nCov?type=0 
     
     参数：type：查询类型： 0 为DIY接口 GET请求得到的是最新的整个json格式接口，默认返回的有HTML的格式，如请求只需要json 
                           可将RealTimeQ.java中DIY方法中的resp.setContentType("text/json;charset=utf-8");更换为
