@@ -3,7 +3,7 @@
 应用技术：Java+Maven
 
 需要修改API.java中的两处域名，本API支持两种查询
-    一、支持按照省份(直辖市)查询 ：域名/2019_nCov/api?provinceName=省份&type=1（如果是直辖市 需要些市  如上海市）
+    一、支持按照省份(直辖市)查询 ：域名/2019_nCov/api?provinceName=省份（如果是直辖市 需要些市  如上海市）
     二、支持按照城市查询  ：域名/2019_nCov/api?provinceName=城市名称&type=2 
     三、支持自己DIY编写查询API：域名/2019_nCov/2019-nCov?type=0 
     
